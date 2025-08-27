@@ -1,65 +1,52 @@
-💼 Projeto 01 — Cartão de Apresentação Digital  
-**Trilha Simplificada | Revisão de Fundamentos de Front-End**
-
----
-
-🚀 Visão Geral
-
-Este é o primeiro projeto da trilha de revisão de fundamentos de front-end, com foco em HTML5 e CSS3. O objetivo principal é consolidar os conhecimentos essenciais da construção de interfaces web, por meio da criação de uma página estática que exibe um cartão de apresentação digital.
-
----
-
-🎯 Objetivo do Projeto
-
-- Praticar a estrutura semântica do HTML5
-- Dominar o **Box Model** do CSS3
-- Aprender a centralizar elementos com **Flexbox**
-- Estilizar componentes com seletores de classe
-- Aplicar pseudo-classes para interações básicas
-
----
-
-🖼️ Descrição da Página
-
-A página consiste em um único cartão de apresentação digital, posicionado no centro da tela. Este cartão contém:
-
-- Nome do profissional
-- Cargo ou especialidade
-- Breve descrição ou slogan
-- Link para rede social ou portfólio
-- Estilização visual com bordas, sombras e espaçamentos
+Projeto 02 (Trilha Simplificada) - Card de Receita Simples
 
 
-🛠️ Tecnologias e Conceitos Utilizados
 
-### HTML5
+Este projeto dá continuidade aos fundamentos de front-end, introduzindo o uso de imagens dentro de um layout estruturado.
 
-- Uso de tags semânticas:  
-  - `<h1>` para o nome  
-  - `<p>` para descrição  
-  - `<a>` para link externo  
-  - `<hr>` para separação visual
 
-### CSS3
 
-- **Box Model**:  
-  - `width`, `padding`, `border`, `margin` para controle de dimensões e espaçamentos
+🚀 Sobre o Projeto
 
-- **Seletores de classe**:  
-  - `.business-card` para aplicar estilos específicos ao cartão
 
-- **Estilização de texto**:  
-  - `font-size`, `color`, `font-weight` para hierarquia visual
 
-- **Layout com Flexbox**:  
-  - `display: flex`, `justify-content`, `align-items` para centralização vertical e horizontal
+O projeto consiste em um único componente "card" que exibe uma receita, contendo uma imagem, um título e uma descrição. O foco principal é aprender a posicionar e controlar o comportamento de imagens dentro de um contêiner, além de reforçar as boas práticas de acessibilidade.
 
-- **Pseudo-classes**:  
-  - `:hover` para aplicar efeitos em links ao passar o mouse
 
-## 💻 Como Executar o Projeto
 
-Abra o arquivo `index.html` em seu navegador preferido:
-   - Clique duas vezes no arquivo  
-   - Ou arraste para uma aba do navegador
+🛠️ Tecnologias e Conceitos Abordados
 
+
+
+- HTML5:
+
+
+
+- Introdução à tag `<img>` e seus atributos essenciais `src` e `alt`.
+
+- Ênfase na importância de textos alternativos (`alt`) para acessibilidade e SEO.
+
+
+
+
+-CSS3:
+
+
+
+-Controle de Imagens: Uso de `width: 100%` para tornar imagens fluidas dentro de seus contêineres.
+
+- `overflow: hidden`: Técnica para conter elementos filhos (como imagens) dentro de bordas arredondadas.
+
+- Box Model: Prática contínua do uso de `padding` para criar espaçamento interno no conteúdo de texto.
+
+- Tipografia: Uso de `line-height` para melhorar a legibilidade de parágrafos.
+
+
+
+💻 Como Executar
+
+1. Crie uma pasta `assets` e coloque uma imagem de sua escolha dentro dela.
+
+2. Atualize o atributo `src` da tag `<img>` no arquivo `index.html` com o nome da sua imagem.
+
+3. Abra o arquivo `index.html` em seu navegador.
