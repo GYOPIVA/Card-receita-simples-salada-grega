@@ -1,48 +1,65 @@
-# Card-receita-simples-salada-grega
-# Projeto 01 (Trilha Simplificada) - Cartão de Apresentação Digital
+💼 Projeto 01 — Cartão de Apresentação Digital  
+**Trilha Simplificada | Revisão de Fundamentos de Front-End**
 
- 
+---
 
-Este é o primeiro projeto da trilha de revisão de fundamentos de front-end. O objetivo é dominar os conceitos mais essenciais de HTML5 e CSS3.
+🚀 Visão Geral
 
- 
+Este é o primeiro projeto da trilha de revisão de fundamentos de front-end, com foco em HTML5 e CSS3. O objetivo principal é consolidar os conhecimentos essenciais da construção de interfaces web, por meio da criação de uma página estática que exibe um cartão de apresentação digital.
 
-## 🚀 Sobre o Projeto
+---
 
- 
+🎯 Objetivo do Projeto
 
-O projeto consiste em uma página web estática que exibe um único cartão de apresentação digital. O foco principal é a prática e a solidificação do **CSS Box Model**, controlando dimensões, espaçamentos internos (padding), bordas e sombras.
+- Praticar a estrutura semântica do HTML5
+- Dominar o **Box Model** do CSS3
+- Aprender a centralizar elementos com **Flexbox**
+- Estilizar componentes com seletores de classe
+- Aplicar pseudo-classes para interações básicas
 
- 
+---
 
-## 🛠️ Tecnologias e Conceitos Abordados
+🖼️ Descrição da Página
 
- 
+A página consiste em um único cartão de apresentação digital, posicionado no centro da tela. Este cartão contém:
 
-- **HTML5**:
+- Nome do profissional
+- Cargo ou especialidade
+- Breve descrição ou slogan
+- Link para rede social ou portfólio
+- Estilização visual com bordas, sombras e espaçamentos
 
-  - Estrutura semântica básica com as tags `<h1>`, `<p>`, `<a>` e `<hr>`.
 
-- **CSS3**:
+🛠️ Tecnologias e Conceitos Utilizados
 
-  - **Box Model**: Foco intensivo nas propriedades `width`, `padding`, `border` e `margin`.
+### HTML5
 
-  - **Seletores**: Uso de seletores de classe (`.business-card`) para estilizar componentes específicos.
+- Uso de tags semânticas:  
+  - `<h1>` para o nome  
+  - `<p>` para descrição  
+  - `<a>` para link externo  
+  - `<hr>` para separação visual
 
-  - **Estilização de Texto**: Controle de `font-size`, `color` e `font-weight`.
+### CSS3
 
-  - **Layout Simples com Flexbox**: Uso de `display: flex` no `<body>` para centralizar o componente principal na página.
+- **Box Model**:  
+  - `width`, `padding`, `border`, `margin` para controle de dimensões e espaçamentos
 
-  - **Pseudo-classes**: Introdução sutil ao `:hover` para feedback em links.
+- **Seletores de classe**:  
+  - `.business-card` para aplicar estilos específicos ao cartão
 
- 
+- **Estilização de texto**:  
+  - `font-size`, `color`, `font-weight` para hierarquia visual
 
-## 💻 Como Executar
+- **Layout com Flexbox**:  
+  - `display: flex`, `justify-content`, `align-items` para centralização vertical e horizontal
 
- 
+- **Pseudo-classes**:  
+  - `:hover` para aplicar efeitos em links ao passar o mouse
 
-1. Clone este repositório.
+## 💻 Como Executar o Projeto
 
-2. Abra o arquivo `index.html` em seu navegador.
-
+Abra o arquivo `index.html` em seu navegador preferido:
+   - Clique duas vezes no arquivo  
+   - Ou arraste para uma aba do navegador
 
